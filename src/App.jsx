@@ -9,7 +9,7 @@ import "./css/App.css"
 
 export default function App() {
   return (
-    <>
+    <main>
       <div className="title-container">
         <h1>Reliable, efficient delivery</h1>
         <h2>Powered by Technology</h2>
@@ -51,6 +51,6 @@ export default function App() {
         />
       </div>
       <Attribution />
-    </>
+    </main>
   )
 }
