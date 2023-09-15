@@ -1,0 +1,27 @@
+.card {
+  width: 100%;
+  max-width: 340px;
+  text-align: left;
+  background-color: hsl(0, 0%, 100%);
+  margin-bottom: 2em;
+  padding: 2em;
+  border-radius: 4px;
+  border-top: 4px solid;
+  box-shadow: 0px 10px 20px -10px hsl(229, 6%, 66%);
+}
+
+.title {
+  font-size: 1.2rem;
+  color: hsl(234, 12%, 34%);
+}
+
+.description {
+  margin-top: 0.2em;
+}
+
+.img-container {
+  margin-top: 2.5em;
+  text-align: right;
+}
+
+/*# sourceMappingURL=Card.css.map */

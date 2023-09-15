@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
+  background-color: hsl(0, 0%, 98%);
+}
+
+h1, h2 {
+  color: hsl(234, 12%, 34%);
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+p {
+  margin-top: 1em;
+}
+
+.card-container, .title-container {
+  max-width: 400px;
+  padding: 2em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media screen and (min-width: 900px) {
+  .title-container {
+    max-width: 600px;
+  }
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    max-width: 1500px;
+  }
+  .col {
+    width: 100%;
+    max-width: 340px;
+  }
+}
+
+/*# sourceMappingURL=App.css.map */
